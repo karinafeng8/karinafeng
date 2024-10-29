@@ -1,17 +1,17 @@
 ---
 # Display name
-title: 吳健雄
+title: Karina A. Feng
 
 # Name pronunciation (optional)
-name_pronunciation: Chien Shiung Wu
+name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Shiung Wu
-last_name: Chien
+first_name: Karina
+last_name: Feng
 
 # Status emoji
 status:
-  icon: ☕️
+  icon: ''
 
 # Is this the primary user of the site?
 superuser: true
@@ -20,167 +20,62 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Chief Scientist
+role: Undergraduate Researcher
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: OpenAI
-    url: https://openai.com/
+  - name: Columbia University
+    url: ''
 
 # Social network links
 # Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:your-email@example.com'
+    url: 'mailto:karina.feng@columbia.edu'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/GetResearchDev
-  - icon: brands/instagram
-    url: https://www.instagram.com/
+ # - icon: brands/x
+ #   url: https://twitter.com/GetResearchDev
+ # - icon: brands/instagram
+ #   url: https://www.instagram.com/
   - icon: brands/github
-    url: https://github.com/gcushen
+    url: https://github.com/karinafeng8
   - icon: brands/linkedin
-    url: https://www.linkedin.com/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/
+    url: https://www.linkedin.com/in/karinafeng/
+  #- icon: academicons/google-scholar
+  #  url: https://scholar.google.com/
   - icon: academicons/orcid
-    url: https://orcid.org/
+    url: https://orcid.org/0000-0001-8276-2073
 
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
-
+  - Subjective Well-being
+  - Intergroup Relations
+  - Social and Cultural Change
+  - Policy and Intervention
+  - Demographic Change
+    
 education:
-  - area: PhD Artificial Intelligence
-    institution: Stanford University
-    date_start: 2016-01-01
-    date_end: 2020-12-31
+  - area: Psychology
+    institution: Columbia University
+    date_start: 2019-09-01
+    date_end: 2023-05-31
     summary: |
-      Thesis on _Why LLMs are awesome_. Supervised by [Prof Joe Smith](https://example.com). Presented papers at 5 IEEE conferences with the contributions being published in 2 Springer journals.
+      Minor: Statistics
+      GPA: 4.01/4.00
+      Thesis _Rewriting Memory Lane: Investigating the Effect of Script Retraining on Memory Recall_. Supervised by Dr. Chris Baldassano. Presented thesis to the Columbia University Department of Psychology.
     button:
       text: 'Read Thesis'
-      url: 'https://example.com'
-  - area: MEng Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.8/4.0
+      url: 'https://drive.google.com/file/d/1wpQBW2XRuWfTzhS-KxLuPoYhuDzy9wbu/view'
+    button:
+      text: 'Watch Oral Presentation'
+      url: 'https://www.youtube.com/watch?v=uZJIs3CKDw8'
+ 
 
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - area: BSc Artificial Intelligence
-    institution: Massachusetts Institute of Technology
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      GPA: 3.4/4.0
-      
-      Courses included:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-work:
-  - position: Director of Cloud Infrastructure
-    company_name: GenCoin
-    company_url: ''
-    company_logo: ''
-    date_start: 2021-01-01
-    date_end: ''
-    summary: |2-
-      Responsibilities include:
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - position: Backend Software Engineer
-    company_name: X
-    company_url: ''
-    company_logo: ''
-    date_start: 2016-01-01
-    date_end: 2020-12-31
-    summary: |
-      Responsibilities include:
-      - Migrated infrastructure to a new data center
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-      - lorem ipsum dolor sit amet, consectetur adipiscing elit
-
-# Skills
-# Add your own SVG icons to `assets/media/icons/`
-skills:
-  - name: Technical Skills
-    items:
-      - name: Python
-        description: ''
-        percent: 80
-        icon: code-bracket
-      - name: Data Science
-        description: ''
-        percent: 100
-        icon: chart-bar
-      - name: SQL
-        description: ''
-        percent: 40
-        icon: circle-stack
-  - name: Hobbies
-    color: '#eeac02'
-    color_border: '#f0bf23'
-    items:
-      - name: Hiking
-        description: ''
-        percent: 60
-        icon: person-simple-walk
-      - name: Cats
-        description: ''
-        percent: 100
-        icon: cat
-      - name: Photography
-        description: ''
-        percent: 80
-        icon: camera
-
-languages:
-  - name: English
-    percent: 100
-  - name: Chinese
-    percent: 75
-  - name: Portuguese
-    percent: 25
-
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
-awards:
-  - title: Neural Networks and Deep Learning
-    url: https://www.coursera.org/learn/neural-networks-deep-learning
-    date: '2023-11-25'
-    awarder: Coursera
-    icon: coursera
-    summary: |
-      I studied the foundational concept of neural networks and deep learning. By the end, I was familiar with the significant technological trends driving the rise of deep learning; build, train, and apply fully connected deep neural networks; implement efficient (vectorized) neural networks; identify key parameters in a neural network’s architecture; and apply deep learning to your own applications.
-  - title: Blockchain Fundamentals
-    url: https://www.edx.org/professional-certificate/uc-berkeleyx-blockchain-fundamentals
-    date: '2023-07-01'
-    awarder: edX
-    icon: edx
-    summary: |
-      Learned:
-      - Synthesize your own blockchain solutions
-      - Gain an in-depth understanding of the specific mechanics of Bitcoin
-      - Understand Bitcoin’s real-life applications and learn how to attack and destroy Bitcoin, Ethereum, smart contracts and Dapps, and alternatives to Bitcoin’s Proof-of-Work consensus algorithm
-  - title: 'Object-Oriented Programming in R'
-    url: https://www.datacamp.com/courses/object-oriented-programming-with-s3-and-r6-in-r
-    certificate_url: https://www.datacamp.com
-    date: '2023-01-21'
-    awarder: datacamp
-    icon: datacamp
-    summary: |
-      Object-oriented programming (OOP) lets you specify relationships between functions and the objects that they can act on, helping you manage complexity in your code. This is an intermediate level course, providing an introduction to OOP, using the S3 and R6 systems. S3 is a great day-to-day R programming tool that simplifies some of the functions that you write. R6 is especially useful for industry-specific analyses, working with web APIs, and building GUIs.
----
 
 ## About Me
+I am a 2023 graduate from Columbia University with a degree in Psychology. My research focuses on well-being, exploring how built, social, and natural environments shape people’s experiences, social interactions, and overall life satisfaction. I am particularly interested in how demographic changes in environments—at both micro and macro levels—affect well-being over time.
 
-Chien Shiung Wu is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+Throughout my academic journey, I have contributed to studies on life satisfaction across racial groups in U.S. counties, the impact of demographic shifts on implicit and explicit biases, and the effects of location and social schema retraining on memory recall. I have developed a broad skillset in advanced statistical techniques, including compositional data analysis (CoDA), multilevel modeling, and natural language processing (NLP), often working with large, nationally representative datasets. My research bridges psychology with data science, political science, and sociology to address both community-level and individual outcomes.
+
+I aspire to advance well-being research to inform evidence-based policies for governments and organizations. I believe population-level research can guide the creation of social policies that account for individual well-being needs. How can we build happier workplaces, homes, and communities? I am also curious about time use—particularly the relationship between alone time and well-being—and how people perceive and reflect on their alone time versus experiences of loneliness. My approach emphasizes interdisciplinary collaboration and transparency to drive meaningful research outcomes.
+
+Originally from Oklahoma, I now live in New York City, where I moved to pursue my undergraduate degree. Outside of research, I enjoy exploring new cities, photography, and discovering great food!
